@@ -1,0 +1,125 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage Express 2.0">
+<title>A Constant Current Source for a Grounded Load using a Single Op-Amp</title>
+<meta name="Description" content="A schematic showing the use of an op-amp to implement a constant current source.">
+<meta name="Keywords" content="op-amp, howland, constant, current, operational, amplifier">
+
+
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<p>&nbsp;</p>
+
+<p align="center">A Constant Current Source for a Grounded Load
+using a Single Op-Amp</p>
+<table border="1" bgcolor="#FFFF00">
+<tbody><tr>
+<td><a href="http://michaelgellis.tripod.com/tutorial.html">More Tutorials</a></td></tr></tbody></table>
+
+<p>Figure 1 shows a modified Howland constant current source. The
+output current through the load is independent of the resistance
+of the load, and depends only on the input voltage, Vin. The
+voltage, VA, can be written as</p>
+
+<table border="0" width="100%">
+    <tbody><tr>
+        <td align="center"><img src="howland_pliki/howland1.gif" height="59" width="222"></td>
+        <td align="right">(1)</td>
+    </tr>
+</tbody></table>
+
+<p>using the equations for the gain of an op-amp at the negative,
+and the positive input terminals.</p>
+<table border="0" width="100%">
+<tbody><tr>
+<td align="left">
+<img src="howland_pliki/figure1.gif" align="left" height="379" width="379">
+</td>
+</tr>
+</tbody></table>
+<p>Figure 1. Constant current source.</p>
+
+<p>&nbsp;</p>
+
+<p>Simplifying (1) yields</p>
+
+<table border="0" width="100%">
+    <tbody><tr>
+        <td align="center"><img src="howland_pliki/howland2.gif" height="50" width="123"></td>
+        <td align="right">(2)</td>
+    </tr>
+</tbody></table>
+
+<p align="left">Rearranging so that VA and VB are on the same
+side of the equation yields</p>
+
+<p><font size="2"></font>&nbsp;</p>
+
+<table border="0" width="100%">
+    <tbody><tr>
+        <td align="center"><img src="howland_pliki/howland3.gif" height="53" width="107"></td>
+        <td align="right">(3)</td>
+    </tr>
+</tbody></table>
+
+<p>By Ohm&#8217;s law, IB is equal to </p>
+
+<table border="0" width="100%">
+    <tbody><tr>
+        <td align="center"><img src="howland_pliki/howland4.gif" height="47" width="80"></td>
+        <td align="right">(4)</td>
+    </tr>
+</tbody></table>
+
+<p>or</p>
+
+<p align="left"><font size="2"></font>&nbsp;</p>
+
+<table border="0" width="100%">
+    <tbody><tr>
+        <td align="center"><img src="howland_pliki/howland5.gif" height="40" width="122"></td>
+        <td align="right">(5)</td>
+    </tr>
+</tbody></table>
+
+<p>Substituting equation (3) into (5) yields</p>
+
+
+
+
+<table border="0" width="100%">
+<tbody><tr>
+<td align="center"><img src="howland_pliki/howland6.gif" height="51" width="115"></td>
+<td align="right">
+(6)</td>
+</tr>
+</tbody></table>
+
+
+
+<p><font size="2"></font>&nbsp;</p>
+<p>If R2 if much greater than RX, then IB can be assumed to flow
+through the load. Typically RX will be 1-100 ohms, and R2 will be
+on the order of 10K to 100K. The capacitor, C1, provides a single
+dominate pole to the feedback circuit to prevent oscillators.
+Without a load, the positive feedback will equal the negative
+feedback when power if first applied to the circuit. Capacitor C2
+insures that the positive feedback is less than the negative
+feedback when the power is first turned on. If the load is
+non-linear, it will essentially be an open circuit until the
+output voltage rises enough to cause it to start conducting. </p>
+Copyright 1999, Mike Ellis, All Rights Reserved
+
+<p>
+You are visitor number <img src="howland_pliki/howland.png">
+<!-- start of NedStat code -->
+<a href="http://nedstat.tripod.com/bin/viewstat?name=michaelgellis-53"><img src="howland_pliki/nedstat.gif" alt="Nedstat Counter" border="0" height="22" width="22"></a>
+<!-- end of NedStat code -->
+
+
+</p>
+
+
+</body></html>

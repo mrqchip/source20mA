@@ -1,0 +1,23 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: LPGDetA1_F.PcbDoc   2013-01-06  19:58:21
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : LPGDetA1_F.TXT
+EIA File   : LPGDetA1_F.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        23.62mil (0.59995mm)     Round          320              86.94 Inch (2208.31 mm)
+T2        28mil (0.7112mm)         Round          20               20.58 Inch (522.65 mm)
+T3        31.5mil (0.8001mm)       Round          16               20.55 Inch (522.06 mm)
+T4        32mil (0.8128mm)         Round          8                14.38 Inch (365.16 mm)
+T5        39.37mil (1mm)           Round          160              54.10 Inch (1374.15 mm)
+T6        40mil (1.016mm)          Round          92               42.49 Inch (1079.26 mm)
+T7        47.24mil (1.1999mm)      Round          120              55.14 Inch (1400.62 mm)
+T8        82.68mil (2.10007mm)     Round          2                11.86 Inch (301.31 mm)
+T9        125.98mil (3.19989mm)    Round          16               43.02 Inch (1092.73 mm)
+---------------------------------------------------------------------------
+Totals                                            754              349.07 Inch (8866.26 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:02

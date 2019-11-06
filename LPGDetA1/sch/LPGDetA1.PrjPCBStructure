@@ -1,0 +1,6 @@
+Record=SheetSymbol|SourceDocument=LPGDetA1_main.SchDoc|Designator=CPU|SchDesignator=CPU|FileName=LPGDetA1_cpu.SchDoc|SymbolType=Normal|RawFileName=LPGDetA1_cpu.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=LPGDetA1_main.SchDoc|Designator=Mechanical|SchDesignator=Mechanical|FileName=LPGDetA1_mech.SchDoc|SymbolType=Normal|RawFileName=LPGDetA1_mech.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=LPGDetA1_main.SchDoc|Designator=Out|SchDesignator=Out|FileName=LPGDetA1_out.SchDoc|SymbolType=Normal|RawFileName=LPGDetA1_out.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=LPGDetA1_main.SchDoc|Designator=Relay|SchDesignator=Relay|FileName=LPGDetA1_rel.SchDoc|SymbolType=Normal|RawFileName=LPGDetA1_rel.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=LPGDetA1_main.SchDoc|Designator=Supply|SchDesignator=Supply|FileName=LPGDetA1_supply.SchDoc|SymbolType=Normal|RawFileName=LPGDetA1_supply.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=LPGDetA1_main.SchDoc
